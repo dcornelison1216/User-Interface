@@ -64,3 +64,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 1000px;
+	margin: auto;
+	padding: 50px;
+	border: 1px solid gray;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	padding-right: 65px;
+	color: gray;
+}
+
+body p.get-started {
+	border: 1px solid black;
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+	margin-left: 118px;
+}
+
+body img.round-img {
+	display: inline-block;
+	padding-left: 120px;
+}
+
+body h1 {
+	text-align: center;
+	font-size: 72px;
+	padding-left: 70px;
+	display: inline-block;
+	padding-top: 50px;
+}
+
+.top-image {
+	display: inline-block;
+}
+
+body section div {
+	display: inline-block;
+	margin-bottom: 80px;
+	vertical-align: middle;
+	padding-top: 50px;
+}
+
+body section.first-section {
+	border-bottom: 1px solid black;
+}
+
+body section.first-content div {
+	margin-top: 0;
+	display: inline-block;
+	width: 49%;
+	height: 80px;
+	line-height: 18px;
+}
+
+body h2 {
+	padding-top: 5px;
+}
+
+body img.middle-img {
+	margin: 30px 0;
+}
+
+body section.second-content div {
+	display: inline-block;
+	width: 32%;
+	height: 195px;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+body section.second-content {
+	border-bottom: 1px solid black;
+}
+
+body section.contact-info h2 {
+	padding-top: 30px;
+	margin-bottom: 0;
+}
+
+body section.contact-info p {
+	padding: 10px 0;
+}
+
+body section.contact-info p.copyright {
+	text-align: center;
+	padding-top: 40px;
+}
